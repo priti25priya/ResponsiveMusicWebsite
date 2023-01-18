@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'cursive'; font-size: 40px;
+    }
+    
+    header{
+    background-image: url('/images/R (1).jpg'); height: 100vh;
+    background-size: cover; background-position: center;
+    }
+    ul{
+    float: right;
+    list-style-type: none; margin-top: 25px;
+    }
+    
+    ul li{
+    display:inline-block;
+    }
+    
+    ul li a{
+    text-decoration: none;
+    color: #333; padding: 5px 20px;
+border: 1px solid transparent; transition: 0.6s ease;
+}
+
+ul li a:hover{
+background-color:transparent; color: coral;
+}
+
+ul li.active a{
+background-color:transparent; color:cornflowerblue;
+}
+
+.logo h1{
+float: left;
+font-size: 100px; color: blueviolet;
+}
+
+.main{
+max-width: 1200px; margin: auto;
+}
+
+.title{
+position: absolute; top: 20%;
+right: 20%;
+transform: translate(-20%,-20%); color: darkcyan;
+font-size: 30px;
+}
+
+.image{
+position: absolute; top: 60%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+    
